@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <span>Carrinho de compras</b></span>
+    </header>
+    <main>
+      <div class="page-title">𝓒𝓪𝓻𝓻𝓲𝓷𝓱𝓸 𝓭𝓮 𝓒𝓸𝓶𝓹𝓻𝓪𝓼</div>
+      <div class="content">
+        <section>
+          <table>
+            <thead>
+              <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+                <th>Total</th>
+                <th>-</th>
+              </tr>
+            </thead>
+            <tbody>
+
+
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="img/donuts.webp" />
+                    <div class="info">
+                      <div class="name">Donuts</div>
+                      <div class="category">Categoria</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 8</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>2</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 16</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+
+
+
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="img/quatroleites.jpeg" />
+                    <div class="info">
+                      <div class="name">Bolo de Quatro Leites</div>
+                      <div class="category">Categoria</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 120</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>1</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 120</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+
+
+
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="img/limao.png" />
+                    <div class="info">
+                      <div class="name">Torta de Limão</div>
+                      <div class="category">Categoria</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 75</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>1</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 75</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+
+
+
+
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="img/copo.jpeg"  />
+                    <div class="info">
+                      <div class="name">Copo da Felicidade</div>
+                      <div class="category">Categoria</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 20</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>3</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 60</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+
+
+
+
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="img/sonho.jpeg"  />
+                    <div class="info">
+                      <div class="name">Sonho</div>
+                      <div class="category">Categoria</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 7</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>5</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 35</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+
+
+
+
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="img/pudim.jpg" />
+                    <div class="info">
+                      <div class="name">Pudim</div>
+                      <div class="category">Categoria</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 23</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>1</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 23</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+
+
+
+
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="img/petit.jpg" />
+                    <div class="info">
+                      <div class="name">Petit gâteau</div>
+                      <div class="category">Categoria</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 24</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>2</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 48</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+
+
+
+
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="img/croass.webp"  />
+                    <div class="info">
+                      <div class="name">Croissant</div>
+                      <div class="category">Categoria</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 16</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>2</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 32</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+              
+
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="img/macarons.avif"  />
+                    <div class="info">
+                      <div class="name">Macarons</div>
+                      <div class="category">Categoria</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 6</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>6</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 36</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+
+
+
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="img/brigadeiro.png"  />
+                    <div class="info">
+                      <div class="name">Brigadeiro</div>
+                      <div class="category">Categoria</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 2</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>10</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 20</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+
+
+            </tbody>
+          </table>
+        </section>
+        <aside>
+          <div class="box">
+            <header>Resumo da compra</header>
+            <div class="info">
+              <div><span>Sub-total</span><span>R$ 475</span></div>
+              <div><span>Frete</span><span>Gratuito</span></div>
+              <div>
+                <button>
+                  Adicionar cupom de desconto
+                  <i class="bx bx-right-arrow-alt"></i>
+                </button>
+              </div>
+            </div>
+            <footer>
+              <span>Total</span>
+              <span>R$ 465</span>
+            </footer>
+          </div>
+          <button>Finalizar Compra</button>
+        </aside>
+      </div>
+    </main>
+    <script>
+    // Espera o carregamento da página para executar
+document.addEventListener('DOMContentLoaded', function() {
+  // Variáveis
+  const products = document.querySelectorAll('.product'); // Todos os produtos no carrinho
+  const totalField = document.querySelector('aside .box footer span:last-child'); // Campo onde o total será exibido
+  const subTotalField = document.querySelector('aside .box .info div:first-child span:last-child'); // Sub-total
+  const discountField = document.querySelector('aside .box .info div:nth-child(3)'); // Onde o cupom de desconto será aplicado
+
+  let discount = 0; // Inicia o desconto como zero
+
+  // Função para atualizar o total de um produto
+  function updateProductTotal(productRow) {
+    const price = parseFloat(productRow.querySelector('.product td:nth-child(2)').textContent.replace('R$', '').trim());
+    const quantity = parseInt(productRow.querySelector('.qty span').textContent);
+    const total = price * quantity;
+    productRow.querySelector('.product td:nth-child(4)').textContent = `R$ ${total.toFixed(2)}`;
+    return total;
+  }
+
+  // Função para atualizar o sub-total
+  function updateSubTotal() {
+    let subTotal = 0;
+    products.forEach((productRow) => {
+      subTotal += updateProductTotal(productRow);
+    });
+    subTotalField.textContent = `R$ ${subTotal.toFixed(2)}`;
+    updateTotal(subTotal);
+  }
+
+  // Função para atualizar o total (considerando desconto)
+  function updateTotal(subTotal) {
+    const total = subTotal - discount;
+    totalField.textContent = `R$ ${total.toFixed(2)}`;
+  }
+
+  // Função para incrementar a quantidade
+  function incrementQuantity(event) {
+    const quantitySpan = event.target.closest('.qty').querySelector('span');
+    let quantity = parseInt(quantitySpan.textContent);
+    quantity += 1;
+    quantitySpan.textContent = quantity;
+    updateSubTotal();
+  }
+
+  // Função para decrementar a quantidade
+  function decrementQuantity(event) {
+    const quantitySpan = event.target.closest('.qty').querySelector('span');
+    let quantity = parseInt(quantitySpan.textContent);
+    if (quantity > 1) {
+      quantity -= 1;
+      quantitySpan.textContent = quantity;
+      updateSubTotal();
+    }
+  }
+
+  // Função para remover um item do carrinho
+  function removeProduct(event) {
+    const productRow = event.target.closest('tr');
+    productRow.remove();
+    updateSubTotal();
+  }
+
+  // Função para aplicar o cupom de desconto
+  function applyDiscount(couponCode) {
+    // Aqui você pode verificar se o código do cupom é válido
+    if (couponCode === "DESCONTO10") {
+      discount = 10; // Aplica R$ 10 de desconto
+      discountField.textContent = `Desconto Aplicado: R$ 10`;
+    } else {
+      discount = 0;
+      discountField.textContent = "Adicionar cupom de desconto";
+    }
+    updateSubTotal();
+  }
+
+  // Adiciona eventos de clique nos botões de mais e menos
+  document.querySelectorAll('.bx-plus').forEach(button => {
+    button.addEventListener('click', incrementQuantity);
+  });
+
+  document.querySelectorAll('.bx-minus').forEach(button => {
+    button.addEventListener('click', decrementQuantity);
+  });
+
+  // Adiciona evento de clique no botão de remover
+  document.querySelectorAll('.remove').forEach(button => {
+    button.addEventListener('click', removeProduct);
+  });
+
+  // Exemplo de como aplicar o cupom de desconto
+  document.querySelector('button')?.addEventListener('click', function() {
+    applyDiscount('DESCONTO10'); // Simula a aplicação do cupom
+  });
+
+  // Inicializa o cálculo do carrinho
+  updateSubTotal();
+});
+
+
+
+    </script>
+  </body>
+</html>
